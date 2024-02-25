@@ -1,14 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 @font-face {
     font-family: 'Yekan';
     src: url(fonts/Yekan.ttf);
 }
-body{
-    font-family: 'Yekan','Courier New', Courier, monospace;
+
+body {
+    font-family: 'Yekan', 'Courier New', Courier, monospace;
     background-color: #272822;
     color: #f8f8f2;
     display: flex;
@@ -17,8 +19,21 @@ body{
     height: 100vh;
 }
 
-.container{
-width: 400px;
-text-align: center;
-background-color: #444;
+.container {
+    width: 400px;
+    text-align: center;
+    background-color: #444;
+}
+
+.header{
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+#textarea{
+width: 90%;
+height: 200px;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 10px;
 }
