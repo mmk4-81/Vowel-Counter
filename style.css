@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",monospace;
     background-color: #000;
     color: #f8f8f2;
     display: flex;
@@ -41,6 +41,10 @@ body {
     border-radius: 10px;
 }
 
+#textarea[placeholder]{
+    font: 1em sans-serif;
+}
+
 button {
     width: 90%;
     padding: 10px;
@@ -51,9 +55,11 @@ button {
     color: #272822;
     margin-bottom: 10px;
     font-size: 1rem;
+    font: 1em sans-serif;
 }
 
 .output {
     margin-bottom: 10px;
     color: white;
+    font: 1em sans-serif;
 }
