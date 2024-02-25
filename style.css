@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'Yekan';
+    src: url(fonts/Yekan.ttf);
+}
+body{
+    font-family: 'Yekan','Courier New', Courier, monospace;
+    
+}
